@@ -51,13 +51,13 @@ body {
 /* Grupos de figuras */
 .group {
   display: flex;
-  gap: 10px; /* antes 22px → 20% más cerca */
+  gap: 10px; /
 }
 
 /* Figuras */
 .shape {
-  width: 50px;   /* antes 60px → 10% más pequeñas */
-  height: 50px;  /* antes 60px */
+  width: 50px;   
+  height: 50px;  
 }
 
 .shape--square {
