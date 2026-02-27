@@ -1,0 +1,70 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* Centrado en viewport */
+.viewport {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+
+/* Contenedor principal */
+.card {
+  width: 400px;
+  height: 300px;
+  background: #1426a6;
+  padding: 20px; /* antes 30px → más cerca al borde */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* centro más despejado */
+}
+
+/* Filas */
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row--top {
+  align-items: flex-start;
+}
+
+.row--bottom {
+  align-items: flex-end;
+}
+
+/* Grupos de figuras */
+.group {
+  display: flex;
+  gap: 10px; /
+}
+
+/* Figuras */
+.shape {
+  width: 50px;   
+  height: 50px;  
+}
+
+.shape--square {
+  background: #77d6e6;
+}
+
+.shape--circle {
+  background: #d95aaa;
+  border-radius: 50%;
+}

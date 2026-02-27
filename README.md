@@ -1,5 +1,7 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/pcBTorPA)
 # Parcial Desarrollo Web: Ingeniería de Prompts y Maquetación
-
+Jersson Estiven Mejia Cifuentes
+URL:https://dsaw-2026-1.github.io/parcial-pr-ctico-corte-i-jersonmejia452-hue/
 ## Contexto
 Como desarrollador frontend, a menudo recibirás diseños que debes prototipar rápidamente. En este ejercicio, utilizarás una **Inteligencia Artificial** (como ChatGPT, Claude o Gemini o el IDE potenciado por IA de tu preferencia) para generar el código base, pero tu éxito dependerá de qué tan precisos y técnicos sean tus instrucciones (prompts).
 
