@@ -1,0 +1,42 @@
+# Parcial Desarrollo Web: Ingeniería de Prompts y Maquetación
+
+## Contexto
+Como desarrollador frontend, a menudo recibirás diseños que debes prototipar rápidamente. En este ejercicio, utilizarás una **Inteligencia Artificial** (como ChatGPT, Claude o Gemini o el IDE potenciado por IA de tu preferencia) para generar el código base, pero tu éxito dependerá de qué tan precisos y técnicos sean tus instrucciones (prompts).
+
+## El Reto
+Observa la siguiente imagen que representa un componente de interfaz de usuario (para hacerlo sencillo, genere un contenedor de 400px x 300px centrado vertical y horizontalmente en el viewport, y dentro de él agregue los elementos necesarios para alcanzar el diseño dado):
+<img width="528" height="409" alt="image" src="https://github.com/user-attachments/assets/f321fb94-879e-4f53-a1b4-569700d86c64" />
+
+
+
+
+### Instrucciones
+Debes crear un archivo llamado `prompts.md` en la raíz de tu proyecto. En este archivo, registrarás la secuencia de comandos (prompts) que utilizaste para obtener el resultado final.
+
+### Requisitos del archivo `prompts.md`:
+1.  **Iteración:** No se permite un solo prompt "mágico". Debes mostrar al menos **3 niveles de refinamiento**:
+    * **Prompt 1 (Estructura):** Definición de la semántica HTML (uso de etiquetas correctas).
+    * **Prompt 2 (Estilos base):** Implementación de colores, tipografía y el modelo de caja.
+    * **Prompt 3 (Layout y Refinamiento):** Uso de Flexbox o Grid para alinear los elementos exactamente como en la imagen.
+2.  **Formateo:** El archivo debe usar sintaxis Markdown correcta (títulos, bloques de código y negritas).
+3.  **Análisis Técnico:** Cada prompt debe incluir términos técnicos vistos en clase (ej: *especificidad, unidades rem, flex-direction, pseudo-clases*).
+
+## Entregables
+* `index.html`: El código final generado y corregido por ti.
+* `style.css`: La hoja de estilos resultante.
+* `prompts.md`: El historial de tu interacción con la IA.
+
+### 📋 Rúbrica de Evaluación
+
+| Criterio | Descripción | Puntaje Máximo |
+| :--- | :--- | :---: |
+| **Ingeniería de Prompts** | Se evidencia un proceso iterativo (mínimo 3 pasos). Los prompts utilizan terminología técnica precisa (Flexbox, Box Model, selectores) para guiar a la IA. | **2.5** |
+| **Seguimiento de Instrucciones** | Entrega de los archivos exactos (`index.html`, `style.css`, `prompts.md`) con la estructura de carpetas y nombrado solicitado en el repositorio. | **1.5** |
+| **Despliegue (Deployment)** | El proyecto es accesible a través de una URL pública (GitHub Pages, Vercel o Netlify) y funciona correctamente. | **1.0** |
+| **TOTAL** | | **5.0** |
+
+---
+
+> [!CAUTION]
+> ### ⚠️ NOTA IMPORTANTE SOBRE LA CALIFICACIÓN
+> El **despliegue del proyecto es un requisito obligatorio**. Si la solución no se encuentra desplegada y la URL no es funcional al momento de la revisión, **la tarea no será calificada (nota 0.0)**, independientemente del contenido del repositorio.
